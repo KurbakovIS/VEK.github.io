@@ -1,0 +1,47 @@
+@import "base";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 29px 54px;
+  font-weight: 500;
+}
+
+.header__logo {
+  @extend %flex-center;
+}
+
+.header__p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 38px;
+}
+
+.header__span {
+  font-weight: bold;
+  font-size: 36px;
+  margin-right: 16px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header__ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  padding-bottom: 3px;
+}
+
+.nav__item:hover {
+  border-bottom: 1px solid var(--footer-color);
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 40px;
+}

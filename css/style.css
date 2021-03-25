@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+:root {
+  --primary-color: #1B1C1E;
+  --footer-color: #283769;
+}
+
+.footer, .header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+.link-active {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1968px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 29px 54px;
+  font-weight: 500;
+}
+
+.header__p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 38px;
+}
+
+.header__span {
+  font-weight: bold;
+  font-size: 36px;
+  margin-right: 16px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header__ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  padding-bottom: 3px;
+}
+
+.nav__item:hover {
+  border-bottom: 1px solid var(--footer-color);
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/*main*/
+.title {
+  height: 1090px;
+  background: url("../img/title.png") center no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title__logo {
+  margin-top: 111px;
+  position: relative;
+}
+
+.title__text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.title__span {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.title__p {
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+/*footer*/
+.footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer__text {
+  max-width: 344px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--footer-color);
+  text-transform: uppercase;
+  padding: 24px;
+}
+
+.footer__text:not(:last-child) {
+  padding-right: 24px;
+  border-right: 1px solid var(--footer-color);
+}
+
+.footer__span {
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,77 @@
+.offer__button {
+  cursor: pointer;
+  margin-top: 54px;
+  text-align: center;
+  padding: 18px 100px 18px 60px;
+  display: block;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0; /* Обнулить округлости */
+  -moz-border-radius: 0; /* Обнулить округлости */
+  -webkit-border-radius: 0; /* Обнулить округлости */
+  background: var(--footer-color);
+  border: none;
+  position: relative;
+
+  //margin: 0 auto; /* Это просто для выравнивания кнопки посередине */
+}
+.offer__button:after, .offer__button:before {
+  left: 100%;
+  top: 28%;
+  border: solid transparent;
+  content: " ";
+  height: 24px;
+  width: 0;
+  position: absolute;
+}
+.offer__button:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: var(--footer-color);
+  border-width: 16px;
+  margin-top: -16px;
+}
+.offer__button:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: var(--footer-color);
+  border-width: 14px;
+  margin-top: -15px;
+  left: 105%;
+  height: 4px;
+  top: 47%;
+}
+.offer__button:hover,
+.offer__button:focus,
+.offer__button:active,
+.offer__button.active,
+.open .dropdown-toggle.offer__button {
+  color: #fff;
+  outline: none;
+  background: #2e6eae;
+}
+.offer__button:hover:after,
+.offer__button:hover:before,
+.offer__button:focus:after,
+.offer__button:focus:before,
+.offer__button:active:after,
+.offer__button:active:before,
+.offer__button.active:after,
+.offer__button.active:before {
+  border-left-color: #2e6eae;
+}
+.offer__button:active,
+.offer__button.active,
+.open .dropdown-toggle.offer__button {
+  background: #265d94;
+  color: #fff;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.offer__button:active:after,
+.offer__button:active:before,
+.offer__button.active:after,
+.offer__button.active:before,
+.open .dropdown-toggle.offer__button:after {
+  border-left-color: #265d94;
+}
