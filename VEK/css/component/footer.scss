@@ -1,0 +1,25 @@
+.footer {
+  @extend %flex-center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer__text {
+  max-width: 344px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--footer-color);
+  text-transform: uppercase;
+  padding: 24px;
+}
+
+.footer__text:not(:last-child) {
+  padding-right: 24px;
+  border-right: 1px solid var(--footer-color);
+}
+
+.footer__span {
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: capitalize;
+}
