@@ -1,0 +1,52 @@
+//header
+@import "../component/header";
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.photo__blog {
+  margin-top: 133px;
+  max-width: 470px;
+  color: var(--footer-color);
+  margin-bottom: 150px;
+}
+
+.photo__img {
+  display: block;
+  margin: 0 auto 50px;
+}
+
+.photo__p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.photo__p:not(:last-child) {
+  text-align: center;
+}
+
+.photo__span {
+  display: inline-block;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*footer*/
+@import "../component/footer";
+.footer {
+  background-color: var(--footer-color)
+}
+
+.footer__text {
+  color: #FFFFFF;
+}
+
+.footer__text:not(:last-child) {
+  border-right: 1px solid #FFFFFF;
+}
