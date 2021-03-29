@@ -7,57 +7,134 @@
     <link rel="stylesheet" href="css/page/contact.css">
 </head>
 <body>
-<div class="container">
-    <header class="header">
-        <div class="header__logo">
-            <a href="index.html">
-                <svg width="94" height="78" viewBox="0 0 94 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M43.8992 41.6985L39.3818 37.1812V46.2158L43.8992 41.6985Z" fill="#779CBC"/>
-                    <path d="M93.5903 77.9531V0.115967L79.2275 14.4788V77.9531H93.5903Z" fill="#539DDB"/>
-                    <path d="M60.2307 0.115967H33.3584L46.7946 13.5521L60.2307 0.115967Z" fill="#578BB8"/>
-                    <path d="M34.0542 34.4014L19.6914 20.0386V65.2119L34.0542 50.8491V34.4014Z" fill="#396E9B"/>
-                    <path d="M34.5175 58.9568L15.5215 77.9528H34.5175V58.9568Z" fill="#4E82AE"/>
-                    <path d="M14.3628 14.3628L0 0V77.953H9.72964L14.3628 73.3198V14.3628Z" fill="#084A83"/>
-                    <path d="M73.8992 77.953V23.05V22.8184L59.3047 37.4128V77.953H73.8992Z" fill="#75B0E2"/>
-                    <path d="M54.2077 77.9528H39.6133V54.092L54.2077 39.4976V77.9528Z" fill="#99C5EA"/>
-                </svg>
-            </a>
-            <div class="header__text">
-                <p class="header__p">
-                    <span class="header__span">VEK</span>
-                    asset management
-                </p>
+<div class="wrapper">
+    <div class="content">
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html">
+                    <svg width="94" height="78" viewBox="0 0 94 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M43.8992 41.6985L39.3818 37.1812V46.2158L43.8992 41.6985Z" fill="#779CBC"/>
+                        <path d="M93.5903 77.9531V0.115967L79.2275 14.4788V77.9531H93.5903Z" fill="#539DDB"/>
+                        <path d="M60.2307 0.115967H33.3584L46.7946 13.5521L60.2307 0.115967Z" fill="#578BB8"/>
+                        <path d="M34.0542 34.4014L19.6914 20.0386V65.2119L34.0542 50.8491V34.4014Z" fill="#396E9B"/>
+                        <path d="M34.5175 58.9568L15.5215 77.9528H34.5175V58.9568Z" fill="#4E82AE"/>
+                        <path d="M14.3628 14.3628L0 0V77.953H9.72964L14.3628 73.3198V14.3628Z" fill="#084A83"/>
+                        <path d="M73.8992 77.953V23.05V22.8184L59.3047 37.4128V77.953H73.8992Z" fill="#75B0E2"/>
+                        <path d="M54.2077 77.9528H39.6133V54.092L54.2077 39.4976V77.9528Z" fill="#99C5EA"/>
+                    </svg>
+                </a>
+                <div class="header__text">
+                    <p class="header__p">
+                        <span class="header__span">VEK</span>
+                        asset management
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="header-right">
-            <nav class="header__nav">
-                <ul class="header__ul">
-                    <li class="nav__item">
-                        <a class="nav__link " href="About.html">О нас</a>
+            <div class="header-right">
+                <nav class="header__nav">
+                    <ul class="header__ul">
+                        <li class="nav__item">
+                            <a class="nav__link " href="About.html">О нас</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="Activities.html">Деятельность</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="Team.html">Команда</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Портфолио</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link link-active" href="Contact.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="canvas">
+                <main class="container-fluid">
+                    <div id="map" class="map" style="max-width: 100%; height: 390px"></div>
+                </main>
+            </div>
+
+            <div class="contact__content">
+                <ul class="contact__content-ul">
+                    <li class="contact__content-item">
+                        <address class="contact__content-link">
+                            г. Москва, Арбат ул., 54/2, с.1
+                        </address>
                     </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="Activities.html">Деятельность</a>
+                    <li class="contact__content-item">
+                        <a href="tel:+749516286976" class="contact__content-link">
+                            + 7 495 1628 69 76
+                        </a>
                     </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="Team.html">Команда</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">Портфолио</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link link-active" href="Contact.html">Контакты</a>
+                    <li class="contact__content-item">
+                        <a href="mailto:info@groupvek.com" class="contact__content-link">
+                            info@groupvek.com
+                        </a>
                     </li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main">
-        <div class="canvas">
-            <main class="container-fluid">
-                <div id="map" class="map" style="max-width: 100%; height: 790px"></div>
-            </main>
-        </div>
-    </main>
+                <div class="contact__content-logo">
+                    <svg width="140" height="117" viewBox="0 0 189 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M88.652 84.4812L79.5293 75.3291V93.6333L88.652 84.4812Z" fill="#779CBC"/>
+                            <path d="M189 157.933V0.234863L159.995 29.3339V157.933H189Z" fill="#539DDB"/>
+                            <path d="M121.633 0.234863H67.3662L94.4997 27.4565L121.633 0.234863Z" fill="#578BB8"/>
+                            <path d="M68.7698 69.6967L39.7646 40.5977V132.119L68.7698 103.02V69.6967Z" fill="#396E9B"/>
+                            <path d="M69.7051 119.447L31.3438 157.933H69.7051V119.447Z" fill="#4E82AE"/>
+                            <path d="M29.0049 29.099L0 0V157.933H19.6485L29.0049 148.546V29.099Z" fill="#084A83"/>
+                            <path d="M149.234 157.933V46.6993V46.23L119.762 75.7984V157.933H149.234Z" fill="#75B0E2"/>
+                            <path d="M109.471 157.933H79.998V109.591L109.471 80.0225V157.933Z" fill="#99C5EA"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="189" height="158.167" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <h2>VEK</h2>
+                    <p>asset managemenеt</p>
+                </div>
+                <ul class="contact__content-ul">
+                    <li class="contact__content-item">
+                        <a href="tel:+79852310590" class="contact__content-link">
+                            + 7 985 231 05 90
+                        </a>
+                    </li>
+                    <li class="contact__content-item">
+                        <a href="mailto:O.Kuznetsov@groupvek.com" class="contact__content-link">
+                            O.Kuznetsov@groupvek.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <footer class="contact__footer">
+        <nav class="contact__nav">
+            <ul class="contact__ul">
+                <li class="contact__item">
+                    <a class="contact__link " href="About.html">О нас</a>
+                </li>
+                <li class="contact__item">
+                    <a class="contact__link" href="Activities.html">Деятельность</a>
+                </li>
+                <li class="contact__item">
+                    <a class="contact__link" href="Team.html">Команда</a>
+                </li>
+                <li class="contact__item">
+                    <a class="contact__link" href="#">Портфолио</a>
+                </li>
+                <li class="contact__item">
+                    <a class="contact__link link-active" href="Contact.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="contact__footer-p">© 2021 «VEK asset managemenеt» </p>
+    </footer>
 </div>
 
 <!--map-->
