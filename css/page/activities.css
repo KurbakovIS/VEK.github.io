@@ -2,18 +2,17 @@
 @import url(../component/buttonArrow.css);
 :root {
   --primary-color: #1B1C1E;
-  --footer-color: #283769; }
+  --footer-color: #283769;
+  --font-size18: 0.70vw;
+  --font-size12: 0.47vw;
+  --font-size14: 0.55vw;
+  --font-size36: 1.41vw;
+  --font-size22: 0.86vw; }
 
-.header__logo, .title-article, .title__footer, .info__text {
+.header__logo, .info__text {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.title__opacity, .title__mission {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
 
 * {
   margin: 0;
@@ -29,7 +28,6 @@ html {
 
 a {
   text-decoration: none;
-  font-size: 12px;
   color: var(--primary-color); }
 
 li {
@@ -70,7 +68,8 @@ li {
   align-items: center; }
 
 .nav__item {
-  padding-bottom: 3px; }
+  padding-bottom: 3px;
+  font-size: 12px; }
 
 .nav__item:hover {
   border-bottom: 1px solid var(--footer-color); }
@@ -84,76 +83,7 @@ li {
 .white {
   color: #FFFFFF; }
 
-/*main*/
-.title-article {
-  height: 1090px;
-  background: url("../../img/title.png") center no-repeat;
-  background-size: 100% 100%; }
-
-.title__opacity {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(60px);
-  max-width: 930px;
-  padding: 40px 50px; }
-
-.title__text {
-  font-size: 18px; }
-
-.title__h2 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 26px; }
-
-.title__p:first-letter {
-  text-transform: capitalize; }
-
-.title__mission {
-  margin-top: 45px;
-  margin-bottom: 45px;
-  text-transform: uppercase;
-  max-width: 700px;
-  color: #FFFFFF;
-  background-color: var(--footer-color);
-  padding: 20px 50px; }
-
-.title__p-mission {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 35px;
-  text-align: center;
-  font-style: italic; }
-
-.title__h2-mission {
-  font-size: 12px;
-  font-weight: normal;
-  margin-bottom: 5px; }
-
-/*title__footer*/
-.title__footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  background-color: var(--footer-color); }
-
-.title__footer__text {
-  max-width: 344px;
-  text-align: center;
-  font-size: 18px;
-  text-transform: uppercase;
-  padding: 24px;
-  color: #FFFFFF; }
-
-.title__footer__text:not(:last-child) {
-  padding-right: 24px;
-  border-right: 1px solid #FFFFFF; }
-
-.title__footer__span {
-  font-weight: bold;
-  font-size: 22px;
-  text-transform: capitalize; }
-
 .offer {
-  margin-top: 136px;
   min-height: 1412px;
   background: url("../../img/Group.png") no-repeat center;
   display: flex;

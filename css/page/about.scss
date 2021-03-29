@@ -1,0 +1,84 @@
+@import "../component/header";
+
+/*title*/
+.title-article {
+  height: 1090px;
+  background: url("../../img/title.png") center no-repeat;
+  @extend %flex-center;
+}
+
+.title__opacity {
+  @extend %flex-center-column;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(60px);
+  max-width: 930px;
+  padding: 40px 50px;
+}
+
+.title__text {
+  font-size: 18px;
+}
+
+.title__h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.title__p:first-letter {
+  text-transform: capitalize;
+}
+
+.title__mission {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  @extend %flex-center-column;
+  text-transform: uppercase;
+  max-width: 700px;
+  color: #FFFFFF;
+  background-color: var(--footer-color);
+  padding: 20px 50px;
+}
+
+.title__p-mission {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+  font-style: italic;
+}
+
+.title__h2-mission {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+/*title__footer*/
+.title__footer {
+  @extend %flex-center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: var(--footer-color);
+}
+
+.title__footer__text {
+  max-width: 344px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 24px;
+  color: #FFFFFF;
+}
+
+.title__footer__text:not(:last-child) {
+  padding-right: 24px;
+  border-right: 1px solid #FFFFFF;
+}
+
+.title__footer__span {
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: capitalize;
+}

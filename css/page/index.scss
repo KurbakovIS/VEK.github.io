@@ -2,36 +2,21 @@
 
 /*main*/
 .title {
-  height: 1090px;
-  background: url("../../img/title.png") center no-repeat;
-  background-size: 100% 100%;
-  display: flex;
-  justify-content: center;
 }
 
-.title__logo {
-  margin-top: 111px;
-  position: relative;
+.title__content {
+  height: 650px;
+  width: 100%;
+  background: url("../../img/TitleBaner.png") center no-repeat;
+  @extend %flex-center;
+  background-size: cover;
+  overflow: hidden;
+}
+.title__img{
+  width: 100%;
+  height: 100%;
 }
 
-.title__text {
-  @extend %flex-center-column;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  font-weight: 500;
-  font-size: 24px;
-}
-
-.title__span {
-  font-weight: bold;
-  font-size: 72px;
-}
-
-.title__p {
-  text-transform: uppercase;
-  margin-top: 30px;
-}
 
 /*footer*/
 @import "../component/footer";
