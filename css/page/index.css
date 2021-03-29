@@ -8,7 +8,7 @@
   --font-size36: 1.41vw;
   --font-size22: 0.86vw; }
 
-.header__logo, .title__content, .footer {
+.header__logo, .title, .title__content, .footer {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -17,6 +17,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
 
 html {
   font-family: 'Montserrat', sans-serif;
@@ -39,6 +43,14 @@ li {
 .container {
   max-width: 1968px;
   margin: 0 auto; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.content {
+  flex: 1 0 auto; }
 
 .header {
   display: flex;
@@ -77,20 +89,29 @@ li {
   margin-right: 40px; }
 
 /*main*/
-.title__content {
-  height: 650px;
+.title {
   width: 100%;
   background: url("../../img/TitleBaner.png") center no-repeat;
   background-size: cover;
   overflow: hidden; }
 
-.title__img {
+.title__content {
   width: 100%;
-  height: 100%; }
+  background: url("../../img/TitleBaner.png") center no-repeat;
+  background-size: cover;
+  overflow: hidden; }
 
+.title__img-logo {
+  margin-top: 59px;
+  margin-bottom: 87px; }
+
+@media screen and (max-height: 930px) {
+  .title__img-logo {
+    width: 350px; } }
 /*footer*/
 .footer {
-  padding-top: 27px; }
+  padding-top: 27px;
+  flex: 0 0 auto; }
 
 .footer__text {
   max-width: 344px;

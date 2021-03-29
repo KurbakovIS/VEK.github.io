@@ -2,21 +2,31 @@
 
 /*main*/
 .title {
-}
-
-.title__content {
-  height: 650px;
   width: 100%;
   background: url("../../img/TitleBaner.png") center no-repeat;
   @extend %flex-center;
   background-size: cover;
   overflow: hidden;
 }
-.title__img{
+
+.title__content {
   width: 100%;
-  height: 100%;
+  background: url("../../img/TitleBaner.png") center no-repeat;
+  @extend %flex-center;
+  background-size: cover;
+  overflow: hidden;
 }
 
+.title__img-logo {
+  margin-top: 59px;
+  margin-bottom: 87px;
+}
+
+@media screen and (max-height: 930px) {
+  .title__img-logo {
+    width: 350px;
+  }
+}
 
 /*footer*/
 @import "../component/footer";

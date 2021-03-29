@@ -29,6 +29,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 html {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -55,3 +60,15 @@ li {
   max-width: 1968px;
   margin: 0 auto;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+

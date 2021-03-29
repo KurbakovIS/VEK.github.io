@@ -18,6 +18,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+html,
+body {
+  height: 100%; }
+
 html {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -39,6 +43,14 @@ li {
 .container {
   max-width: 1968px;
   margin: 0 auto; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.content {
+  flex: 1 0 auto; }
 
 .header {
   display: flex;
@@ -108,7 +120,8 @@ li {
 
 /*footer*/
 .footer {
-  padding-top: 27px; }
+  padding-top: 27px;
+  flex: 0 0 auto; }
 
 .footer__text {
   max-width: 344px;
