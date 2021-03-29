@@ -53,6 +53,12 @@ li {
 .content {
   flex: 1 0 auto; }
 
+.mb {
+  margin-bottom: 17px; }
+
+.white {
+  color: #FFFFFF; }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -88,12 +94,6 @@ li {
 
 .nav__item:not(:last-child) {
   margin-right: 40px; }
-
-.mb {
-  margin-bottom: 77px; }
-
-.white {
-  color: #FFFFFF; }
 
 .offer {
   min-height: 1412px;

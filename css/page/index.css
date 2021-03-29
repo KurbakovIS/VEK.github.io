@@ -52,6 +52,12 @@ li {
 .content {
   flex: 1 0 auto; }
 
+.mb {
+  margin-bottom: 17px; }
+
+.white {
+  color: #FFFFFF; }
+
 .header {
   display: flex;
   justify-content: space-between;
