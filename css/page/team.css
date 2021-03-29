@@ -97,7 +97,9 @@ li {
 .photo {
   display: flex;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background: url("../../img/Team__bg.png") center no-repeat;
+  background-size: cover; }
 
 .photo__blog {
   margin-top: 50px;
