@@ -160,7 +160,7 @@ li {
   max-width: 400px; }
   .info__item:last-child p {
     font-weight: bold;
-    font-size: 36px; }
+    font-size: 34px; }
   .info__item:not(:last-child) {
     margin-right: 50px; }
   .info__item:not(:last-child):after {
@@ -182,7 +182,7 @@ li {
   background: var(--footer-color); }
 
 .info__menu {
-  margin-bottom: 225px;
+  margin-bottom: 60px;
   margin-top: 50px;
   display: flex;
   justify-content: center; }
