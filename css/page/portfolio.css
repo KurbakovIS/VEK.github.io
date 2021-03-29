@@ -95,10 +95,9 @@ li {
   margin-right: 40px; }
 
 .slider-for {
-  margin: 40px; }
-
-.slider-nav {
-  margin-bottom: 104px; }
+  margin-top: 40px;
+  margin-bottom: 30px;
+  max-height: 500px; }
 
 .sl__slide {
   display: flex;
@@ -113,13 +112,15 @@ li {
     font-size: 12px; }
 
 .sl__slide-prev {
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
+  .sl__slide-prev img {
+    max-height: 500px; }
 
 .slider-for-content {
   max-width: 695px;
   margin-left: 40px; }
   .slider-for-content h1 {
+    margin-top: 0;
     color: var(--footer-color);
     font-weight: bold;
     font-size: 36px;
@@ -128,7 +129,7 @@ li {
     display: inline-block;
     font-weight: bold;
     font-size: 14px;
-    margin-bottom: 31px;
+    margin-bottom: 10px;
     margin-top: 17px; }
 
 .sl__link {
@@ -138,5 +139,26 @@ li {
 .sl__item {
   font-weight: 600;
   font-size: 14px; }
+
+@media screen and (max-height: 930px) {
+  .slider-for {
+    max-height: 400px; }
+
+  .sl__slide-prev img {
+    max-height: 400px; }
+
+  .slider-for-content p {
+    display: inline; }
+  .slider-for-content span {
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px; }
+
+  .sl__ul {
+    margin-top: 10px; }
+
+  .sl__link {
+    margin-bottom: 13px; } }
 
 /*# sourceMappingURL=portfolio.css.map */
